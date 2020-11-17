@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # import subprocess
-# result = subprocess.check_output('curl -H "`oauth2l header --json key.json mobileinsights`" https://mobileinsights.googleapis.com/v2/networks', shell=True)
+# anloroi result = subprocess.check_output('curl -H "`oauth2l header --json key.json mobileinsights`" https://mobileinsights.googleapis.com/v2/networks', shell=True)
 
 class Student:
 	def __init__(self, name, birthday, point):
