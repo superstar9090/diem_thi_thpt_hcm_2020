@@ -6,11 +6,7 @@ from bs4 import BeautifulSoup
 import csv
 
 # import subprocess
-<<<<<<< HEAD
-# anloroi result = subprocess.check_output('curl -H "`oauth2l header --json key.json mobileinsights`" https://mobileinsights.googleapis.com/v2/networks', shell=True)
-=======
 # chanvcl result = subprocess.check_output('curl -H "`oauth2l header --json key.json mobileinsights`" https://mobileinsights.googleapis.com/v2/networks', shell=True)
->>>>>>> 9916417ce810717798a490d82d34e2505ddc46e5
 
 class Student:
 	def __init__(self, name, birthday, point):
@@ -124,7 +120,7 @@ for x in range(100000):
 
 	row_list.append([str(c), gdp_table_td[0].getText().strip(), ngaysinh, thangsinh, namsinh, toan, nguvan, lichsu, vatli, hoahoc, diali, sinhhoc, gdcd, khtn, khxh, tiengAnh])
 	# student = Student(gdp_table_td[0].getText().strip(), gdp_table_td[1].getText().strip(), json_data)
-	# print(student.toString())
+	print(student.toString())
 	print('------------------')
 	# break
 
